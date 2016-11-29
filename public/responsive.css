@@ -1,0 +1,24 @@
+@media screen and (max-width: 481px) {
+
+
+	ul.nav.nav-tabs.nav-justified {
+	    display: table;
+	    width: 100%;
+	    table-layout: fixed; /* To make all "columns" equal width regardless of content */
+	}
+
+	#linkGarden-social {
+		font-size: 25px;
+	}
+
+	#garden-img {
+
+		background: url('/images/emptyGarden.jpg') no-repeat fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+
+
+}
